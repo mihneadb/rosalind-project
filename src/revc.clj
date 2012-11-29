@@ -9,6 +9,7 @@
     (= base \T) \A
     (= base \A) \T
     (= base \C) \G
-    (= base \G) \C))
+    (= base \G) \C
+    :else \x))
 
 (println (apply str (reverse (map complement-base dna))))
