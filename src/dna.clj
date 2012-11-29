@@ -1,3 +1,5 @@
+; http://rosalind.info/problems/dna/
+
 (require 'clojure.string)
 
 ; read lines, save first line
